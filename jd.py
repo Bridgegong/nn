@@ -7,7 +7,7 @@ from lxml import etree #数据解析
 import pymongo
 import json
 
-
+# lllllllllllllllllllllllllllllllllllll
 def get_response(url):
     html = requests.get(url,headers = headers) #发送一次请求
     selector = etree.HTML(html.text)
